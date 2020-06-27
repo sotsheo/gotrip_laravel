@@ -1,0 +1,255 @@
+.header{
+	float: left;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 995;
+    padding: 10px 0;
+    position: fixed;
+    @include transition(.5s);
+    @media (max-width: 767px){
+    	position: relative;
+    }
+    .container{
+    	position: relative;
+    }
+	.logo{
+		position: relative;
+		float: left;
+		margin-right: 50px;
+		width: 110px;
+		@include transition(.5s);
+		img{
+			max-height: 100%;
+		}
+		@media (max-width: 767px){
+			width: 105px;
+			margin-right: 0;
+		}
+	}
+	.btn-order{
+		float: right;
+		margin-top: 18px;
+		margin-left: 15px;
+		@media (max-width: 991px){
+			margin-right: 50px;
+			    margin-top: 22px;
+		}
+		@media (max-width: 767px){
+			    margin-top: 19px;
+		}
+		a, button{
+			padding: 5px 20px;
+			font-size: 15px;
+		}
+	}
+}
+
+.group-right{
+	float: right;
+	font-size: 16px;
+	margin-top: 5px;
+	@media(max-width: 991px){
+		margin-right: 60px;
+	}
+	@media (max-width: 767px){
+		margin-right: 48px;
+	}
+	.hotline{
+		float: left;
+		width: 145px;
+		@media (max-width: 767px){
+			display: none;
+		}
+		p{
+			float: left;
+			width: 100%;
+			margin-bottom: 0;
+			a{
+				color: #ffd200;
+				img{
+					float: left;
+					margin-top: 2px;
+					margin-right: 7px;
+				}
+			}
+		}
+	}
+	.account-box{
+		float: left;
+		margin-left: 30px;
+		margin-top: 5px;
+		@media (max-width: 767px){
+			margin-top: -5px;
+			margin-left: 0;
+		}
+		.user-login{
+			a{
+				color: #fff;
+				float: left;
+				width: 100%;
+				padding-left: 35px;
+				position: relative;
+				@media(max-width: 767px){
+					color: #333;
+				}
+				.img{
+					float: left;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 35px;
+					height: 35px;
+					img{
+
+					}
+				}
+				.title{
+					float: left;
+					width: 100%;
+					h2{
+						margin: 0px 0px 0px 0px;
+						font-size: 16px;
+						color: #fff;
+						@media(max-width: 767px){
+							color: #333;
+						}
+					}
+					span{
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.btn-order{
+	float: left;
+	width: 100%;
+	a, button{
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+		color: #000;
+		float: left;
+		letter-spacing: 0.2px;
+		border: none;
+		padding: 13px 38px 10px 38px;
+		font-weight: 600;
+		font-size: 16px;
+		background: #FFD200;
+		border-radius: 3px;
+		width: 100%;
+		text-align: center;
+		&:hover{
+			background: #eb6502;
+			color: #fff;
+		}
+	}
+}
+
+.fixed .header{
+	background: #1A3863;
+}
+.social-contact {
+    position: fixed;
+    right: -10px;
+    top: 40%;
+    z-index: 999;
+    width: 59px;
+}
+.social-icon {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    z-index: 9;
+    zoom: .9;
+}
+.social-icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-icon ul li {
+    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    display: table;
+}
+.social-icon ul li a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+@media (max-width: 991px){
+	.social-icon {
+	    float: right;
+	    margin-right: 20px;
+	    position: fixed;
+	    z-index: 999;
+	    right: 25px;
+	    top: 0;
+	    bottom: 0;
+	    margin: auto;
+	    height: 250px;
+	}
+	.iconmenu, .social-icon ul li {
+	    visibility: visible !important;
+	}
+	.group-right .account-box .user-login a .title h2 {
+	    color: #fff;
+	}
+	.group-right .account-box .user-login a {
+	    color: #fff;
+	}
+	.header {
+	    background: #1A3863;
+	    position: relative;
+	}
+	.iconmenu span {
+	    height: 2px;
+	    background: #fff !important;
+	}
+	.iconmenu.open span:nth-child(3) {
+	    top: 5px !important;
+	}
+}
+
+@media (max-width: 440px){
+	.social-icon {
+	    zoom: .6;
+	}
+}
+
+.fixed .main-menu > ul > li a, .fixed .span-lv-1, .fixed .span-lv-2 {
+    color: #fff;
+}
+.fixed .group-right .account-box .user-login a {
+    color: #fff;
+}
+.fixed .group-right .account-box .user-login a .title h2 {
+    color: #fff;
+}
+// .show-in-fixed{
+// 	display: none;
+// 	@media (max-width: 767px){
+// 		display: inline-block;
+// 	}
+// }
+// @media (max-width: 767px){
+// 	.group-right .account-box a img.default{
+// 		display: none;
+// 	}
+// }
+// .fixed .group-right .account-box a img.default{
+// 	display: none;
+// }
+// .fixed .group-right .account-box a img.show-in-fixed{
+// 	display: inline-block;
+// }

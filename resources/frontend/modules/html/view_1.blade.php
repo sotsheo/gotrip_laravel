@@ -1,0 +1,1 @@
+view_1.blade.php

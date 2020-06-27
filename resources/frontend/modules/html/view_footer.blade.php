@@ -1,0 +1,1 @@
+view_footer.blade.php

@@ -1,0 +1,80 @@
+/*
+Error: Undefined mixin 'transition'.
+        on line 34 of D:\Git-Template\templalate-t3-2017\gotrip\sass\button.scss, in `transition'
+        from line 34 of D:\Git-Template\templalate-t3-2017\gotrip\sass\button.scss
+
+29:         position: relative;
+30:         -webkit-transition-property: color;
+31:         transition-property: color;
+32:         -webkit-transition-duration: 0.3s;
+33:         transition-duration: 0.3s;
+34:         @include transition(.4s);
+35:         @media (max-width: 1200px){
+36:             font-size: 20px;
+37:             padding: 17px 35px 12px 35px;
+38:         }
+39:         @media (max-width: 767px){
+
+Backtrace:
+D:\Git-Template\templalate-t3-2017\gotrip\sass\button.scss:34:in `transition'
+D:\Git-Template\templalate-t3-2017\gotrip\sass\button.scss:34
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/New folder (2)/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/New folder (2)/bin/sass:22:in `load'
+D:/New folder (2)/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'transition'.\A         on line 34 of D:\Git-Template\templalate-t3-2017\gotrip\sass\button.scss, in `transition'\A         from line 34 of D:\Git-Template\templalate-t3-2017\gotrip\sass\button.scss\A \A 29:         position: relative;\A 30:         -webkit-transition-property: color;\A 31:         transition-property: color;\A 32:         -webkit-transition-duration: 0.3s;\A 33:         transition-duration: 0.3s;\A 34:         @include transition(.4s);\A 35:         @media (max-width: 1200px){\A 36:             font-size: 20px;\A 37:             padding: 17px 35px 12px 35px;\A 38:         }\A 39:         @media (max-width: 767px){"; }

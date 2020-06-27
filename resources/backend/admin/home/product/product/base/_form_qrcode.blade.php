@@ -1,0 +1,1 @@
+{!! QrCode::size(250)->generate(createUrlpage($model->name).'-'.$model->id); !!}

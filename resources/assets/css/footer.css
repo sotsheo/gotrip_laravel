@@ -1,0 +1,35 @@
+.footer {
+  float: left;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  background: #f1f1f1; }
+  .footer .logo-footer {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px; }
+    .footer .logo-footer img {
+      max-width: 220px; }
+    .footer .logo-footer p {
+      margin-top: 20px;
+      font-family: 'Playfair Display', serif;
+      font-size: 21px;
+      color: #a01e21; }
+  .footer .list-social {
+    float: left;
+    width: 100%; }
+    .footer .list-social ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .footer .list-social ul li {
+        display: inline-block;
+        margin: 0px 5px; }
+        .footer .list-social ul li a {
+          color: #333;
+          font-size: 18px; }
+
+/*# sourceMappingURL=footer.css.map */
